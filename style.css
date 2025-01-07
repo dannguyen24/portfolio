@@ -6,9 +6,26 @@ body {
 .home {
     background-color: lightblue;
     padding: 15%;
+    margin: 0%;
 }
 
 .content {
+    margin: 0%;
     background-color: pink;
     text-align: center;
+}
+
+img {
+    float: right;
+}
+
+.home > div {
+    display:inline-block;
+    width: 40%;
+}
+.home img {
+    display: inline-block;
+}
+.home button{
+    display: block;
 }
