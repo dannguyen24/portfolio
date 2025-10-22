@@ -41,9 +41,14 @@ const Hero = () => {
         <div className="max-w-5xl mx-auto">
           <motion.div variants={itemVariants} className="mb-8 text-center">
             <div className="inline-block border-8 border-foreground p-2 bg-card">
-              <div className="w-32 h-32 bg-card flex items-center justify-center">
+              <img
+                src="/profile.jpg"
+                alt="Dan Nguyen profile"
+                className="w-32 h-32 object-cover"
+              />
+              {/* <div className="w-32 h-32 bg-card flex items-center justify-center">
                 <span className="text-6xl font-bold text-foreground">DN</span>
-              </div>
+              </div> */}
             </div>
           </motion.div>
 

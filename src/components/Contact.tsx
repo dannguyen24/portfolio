@@ -141,7 +141,14 @@ const Contact = () => {
                       className="w-full heading-font text-xl py-6 h-auto"
                     >
                       <Calendar className="w-6 h-6 mr-2" />
-                      Schedule Interview
+                        <a
+                          href="https://calendly.com/danuyennguyen2412005/new-meeting"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          Schedule Interview
+                        </a>
+                      
                     </Button>
                   </div>
                 </div>
